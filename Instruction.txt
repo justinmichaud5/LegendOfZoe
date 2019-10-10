@@ -12,8 +12,7 @@ E: sortie du niveau
 ITEMS:
 • Un coeur : redonne un point de vie à Zoe
 • Une potion de vie : redonne toute la vie à Zoe
-• Un morceau d’Hexaforce : il y a exactement un morceau d’Hexaforce par niveau, que Zoe doit
-ramasser avant de passer au niveau suivant
+• Un morceau d’Hexaforce : il y a exactement un morceau d’Hexaforce par niveau, que Zoe doit ramasser avant de passer au niveau suivant
 
 COMMANDES:
 w: déplace Zoe une case vers le haut
@@ -30,3 +29,7 @@ TIPS:
 On peut entrer plus d’une seule commande d’un coup, donc la commande :
 "awww"
 Fait avancer Zoe à gauche d’une case puis en haut de trois cases.
+
+HARDMODE:
+Ajoute un pathfinding plus sophistiqué pour choisir les mouvements des ennemis, de façon à ce qu’ils ne se bloquent pas dans les murs.
+java LegendOfZoe --bonus
