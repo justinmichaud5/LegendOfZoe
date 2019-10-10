@@ -1,0 +1,32 @@
+----Legend of Zoe----
+
+SPRITES:
+&: Zoe
+#: mur du donjon
+$: trésor fermé (cache un item)
+_: trésor ouvert (l’item a déjà été pris)
+@: monstre en vie
+x: monstre battu par Zoe (0 vie)
+E: sortie du niveau
+
+ITEMS:
+• Un coeur : redonne un point de vie à Zoe
+• Une potion de vie : redonne toute la vie à Zoe
+• Un morceau d’Hexaforce : il y a exactement un morceau d’Hexaforce par niveau, que Zoe doit
+ramasser avant de passer au niveau suivant
+
+COMMANDES:
+w: déplace Zoe une case vers le haut
+a: déplace Zoe une case vers la gauche
+s: déplace Zoe une case vers le bas
+d: déplace Zoe une case vers la droite
+c: creuser dans les murs avoisinants
+x: attaque tous les monstres dans le voisinage de Zoe
+voisinage de 8 voisins
+o: ouvre tous les trésors dans le voisinage de Zoe
+q: ferme le jeu
+
+TIPS:
+On peut entrer plus d’une seule commande d’un coup, donc la commande :
+"awww"
+Fait avancer Zoe à gauche d’une case puis en haut de trois cases.
